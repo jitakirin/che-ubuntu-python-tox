@@ -5,7 +5,7 @@
 FROM eclipse/stack-base:ubuntu
 
 ENV LANG=C.UTF-8
-ENV TOX_VERSION 2.3.1
+ENV TOX_VERSION 2.9.1
 
 RUN gpg --keyserver keyserver.ubuntu.com --recv-keys 6A755776 \
   && gpg --export 6A755776 | sudo apt-key add - \
